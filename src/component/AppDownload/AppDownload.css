@@ -1,0 +1,25 @@
+.appdownload{
+ margin: auto auto;
+ margin-top: 80px;
+ text-align: center;
+ font-size: max(2vw, 20px);
+ font-weight: 599;
+ word-spacing: 5px;
+}
+.app-dowlad_plateform{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+
+}
+ #appdown{
+    width: max(30vw, 120px);
+   max-width: 120px;
+   cursor: pointer;
+   transition: 0.6s ease-in-out;
+}
+#appdown:hover{
+  transform: scale(1.2);
+}

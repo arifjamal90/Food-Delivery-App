@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.palace-order{
+    margin-top: 80px;
+    padding: 0px 60px;
+    display: flex;
+    align-items: flex-start;
+    gap: 50px;
+    justify-content: space-between;
+}
+.arif::-webkit-outer-spin-button,
+.arif::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+.palace-order-left{
+    width: 100%;
+    max-width: max(30%, 500);
+}
+.palace-order-left .title{
+    margin-bottom: 50px;
+    font-size: 30px;
+    font-weight: 600;
+}
+.palace-order-left input{
+ border-radius: 4px;
+ width: 100%;
+ padding: 8px;
+ border: 1px solid #c5c5c5;
+ outline-color: tomato;
+ margin-bottom: 10px;
+}
+.palace-order-left button{
+    padding: 8px 30px;
+    border-radius: 4px;
+    background-color: tomato;
+    color: white;
+    font-size: max(1vw, 15px);
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+.palace-order-left .multi-fields{
+    display: flex;
+    gap: 10px;
+}
+.palace-order-right{
+    width: 100%;
+    max-width: max(40% 500);
+}
